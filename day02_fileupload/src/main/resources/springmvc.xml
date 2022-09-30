@@ -26,7 +26,9 @@
     <mvc:resources location="/js/" mapping="/js/**"/>
 
     <!--配置文件解析器对象-->
+    <!-- id="multipartResolver"不能改 -->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 设置文件上传大小限制 -->
         <property name="maxUploadSize" value="10485760" />
     </bean>
 

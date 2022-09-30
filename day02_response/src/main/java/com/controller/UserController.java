@@ -91,7 +91,7 @@ public class UserController {
         // 请求的转发
         // return "forward:/WEB-INF/pages/success.jsp";
 
-        // 重定向
+        // 重定向，重定向进行了二次访问，无法访问/WEB-INF/目录
         return "redirect:/index.jsp";
     }
 

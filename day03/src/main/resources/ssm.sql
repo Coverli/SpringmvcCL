@@ -1,0 +1,9 @@
+CREATE DATABASE ssm;
+
+USE ssm;
+
+CREATE TABLE account (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(20),
+    money DOUBLE
+);

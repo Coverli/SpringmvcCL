@@ -50,6 +50,7 @@ public class UserController {
 
     /**
      * SpringMVC文件上传
+     * MultipartFile类的名字要和jsp页面标签的name值一致
      * @return
      */
     @RequestMapping("/fileupload2")
